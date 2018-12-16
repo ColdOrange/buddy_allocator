@@ -4,8 +4,6 @@
 
 #include "buddy_allocator.h"
 #include <sstream>
-#include <iomanip>
-#include <iostream>
 
 BuddyAllocator::BuddyAllocator(std::size_t min_block_size, std::size_t level)
     : min_block_size_(min_block_size),
